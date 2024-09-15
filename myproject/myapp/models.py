@@ -9,5 +9,5 @@ class Employees(models.Model):
     role = models.CharField(max_length=100)
     shift = models.IntegerField()
     
-def __str__(self):
-    return self.first_name
+    def __str__(self):
+        return self.first_name
